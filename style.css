@@ -1,0 +1,901 @@
+
+/*--------------------------------------------------------------------------------*/
+/*Below this is the CSS of the front page by Alexandru Rusu*/
+/*This #front is the body of my webpage*/
+/*--------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------
+--------------------------------Alexandru's CSS Starting---------------------------
+------------------------------------------------------------------------------------*/
+#Front{
+	background-image: url(Pictures/theme.png);
+	padding-top: 0;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.navbar-brand{
+
+	background-color: inherit;
+	padding-right: 225px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	
+}
+
+
+/*-my nav bar containing everything-*/
+
+
+
+/*-the logo with the head and its class-*/
+.head{	
+  padding-right: 0px;
+	width: 400px;
+	height: 400px;
+}
+
+/*-MY H1 identified as V-*/
+.v{
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	text-align: center;
+  
+}
+  
+
+.fot{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+}
+
+
+/*-------THIS IS THE BEGGINING OF THE SLIDESHOW------------ */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: sticky;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(241, 20, 20);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a red background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(238, 24, 24, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.text1 {
+  color: #000000;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f31717;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgba(255, 82, 14, 0.993);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade{
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+  -webkit-animation-fill-mode: forwards;
+	animation-name: fade;
+	animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade{
+
+	form{opacity: .4;}
+	to{opacity: 1;}
+	
+}
+
+/*-------THIS IS THE ENDING OF THE SLIDESHOW------------ */
+
+.endblock{
+  border-top: 5px solid rgba(253, 122, 122, 0.993);
+  border-bottom: 5px solid rgba(253, 122, 122, 0.993);
+  margin-top: 5%;
+
+ 
+}
+
+.nav-lin{
+  font-size: 20px;
+  background-color: rgb(0, 0, 0);
+  color: rgba(18, 242, 250, 0.993)
+  
+}
+
+#trademark{
+
+  color: rgba(158, 155, 150, 0.993);
+}
+
+.lebel{
+  
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+/*
+form {
+  /* Center the form on the page 
+  margin: 0 auto;
+  width: 500px;
+  /* Form outline 
+  padding: 1em;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 1em;
+}
+
+/*ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 2em;
+}
+
+label {
+  /* Uniform size & alignment
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+*/
+
+/*
+input,
+textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font 
+  font: 20px sans-serif;
+
+  /* Uniform text field size 
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Match form field borders 
+  border: 2px solid rgb(0, 0, 0);
+}
+
+input:focus,
+textarea:focus {
+  /* Additional highlight for focused elements 
+  border-color: #000;
+}
+
+textarea {
+  /* Align multiline text fields with their labels 
+  vertical-align: top;
+
+  /* Provide space to type some text 
+  height: 100px;
+}
+
+*/
+.button {
+  /* Align buttons with the text fields */
+  padding-left: 90px; 
+  /* same size as the label elements */ 
+}
+
+.navbar-brand{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  color: orange;
+}
+
+
+.nav-link{
+  
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+
+}
+.nav-item{
+	border: 2px solid black;
+}
+
+#Home, #AboutUs , #DonateNow{
+
+  color: #000;
+  text-decoration: underline;
+}
+
+/*FORM CSS */
+
+      .formhead {
+      margin: 0 0 20px;
+      font-weight: 400;
+      color: #1c87c9;
+      }
+      .formmsg {
+      margin: 0 0 5px;
+      }
+      .main-block {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+	  padding-right: 400px;
+      }
+      .formW{
+      padding: 25px;
+      margin: 25px;
+      box-shadow: 0 2px 5px #f5f5f5; 
+      background: #f5f5f5; 
+      }
+      .fas {
+      margin: 25px 10px 0;
+      font-size: 72px;
+      color: #fff;
+      }
+      .fa-envelope {
+      transform: rotate(-20deg);
+      }
+      .fa-at , .fa-mail-bulk{
+      transform: rotate(10deg);
+      }
+      input, textarea {
+      width: calc(100% - 18px);
+      padding: 8px;
+      margin-bottom: 20px;
+      border: 1px solid #1c87c9;
+      outline: none;
+      }
+      input::placeholder {
+      color: #666;
+      }
+      button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      background: #1c87c9; 
+      font-size: 16px;
+      font-weight: 400;
+      color: #fff;
+      }
+      button:hover {
+      background: #2371a0;
+      }    
+      @media (min-width: 568px) {
+      .main-block {
+      flex-direction: row;
+      }
+      .left-part, form {
+      width: 50%;
+      }
+      .fa-envelope {
+      margin-top: 0;
+      margin-left: 20%;
+      }
+      .fa-at {
+      margin-top: -10%;
+      margin-left: 65%;
+      }
+      .fa-mail-bulk {
+      margin-top: 2%;
+      margin-left: 28%;
+      }
+      }
+	  
+	  
+/* FORM CSS END */
+
+/*----------------------------------------------------------------------------------
+--------------------------------Alexandru's CSS FINISHED---------------------------
+------------------------------------------------------------------------------------*/
+
+
+
+
+/*----------------------------------------------------------------------------------
+--------------------------------Rutwiks's's CSS STARTED-----------------------------
+------------------------------------------------------------------------------------*/
+#about
+{
+	background-image: url(./Pictures/theme2.png);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.hand{
+	display:block;
+	margin:auto;
+	align-items:centre;
+	
+}
+#navigation
+{
+	float:right;
+}
+
+.Title1{
+  font-size: 45px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: underline;
+
+}
+
+.logoo
+{
+	width:10%;
+	height:100%;
+}
+
+.lago
+{
+	display:block;
+	margin:auto;
+	align-items:centre;
+}
+.aboutinfo{
+	
+	font-size:17px;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+.aboutinfo1
+{
+	font-family: 'Roboto', sans-serif;
+	font-size:25px;
+	text-decoration: bold;
+	text-decoration: underline;
+}
+.block1: p
+{
+	text-align: center;
+	text-align: justify;
+}
+.block2: p
+{
+	text-align: center;
+	text-align: justify;
+}
+.block3: p
+{
+	text-align: center;
+	text-align: justify;
+}
+
+.h
+{
+	color:red;
+}
+
+.op{
+	padding-right: 0px;
+	width: 10%;
+	height: 10%;
+}
+
+.navi{
+	float:right;
+}
+.happy
+{
+	display:block;
+	margin:auto;
+	align-items:centre;
+	margin-top:45px;
+}
+
+#owner
+{
+	font-size: 24px;
+	text-align:center;
+}
+.block1
+{
+	margin-bottom: 40px;
+}
+.block3
+{
+	margin-top:40px;
+}
+.block2
+{
+	padding-left:20px;
+}
+#bio{
+	margin-left:auto;
+	margin-right:auto;
+	border: 1px solid black;
+	padding: 30px;
+}
+
+#bio table,tr,td,th{
+	margin-left:auto;
+	margin-right:auto;
+	border: 1px solid black;
+	padding: 30px;
+}
+.lining{
+	background-color:rgba(243, 149, 112, 0.993);
+}
+
+/* Click function page */
+#member1, #member2, #member3 {
+  position: relative;
+  text-align: center;
+  color: cyan;
+}
+
+#demo,#demo1,#demo2 
+{
+  opacity:0;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  text-decoration:bold;
+}
+/* Centered text */
+
+
+.corner
+{
+	border-radius:10%;
+}
+
+#content1a,#content1b,#content1c,#content2a,#content2b,#content2c,#content3a,#content3b,#content3c
+{
+	opacity:0;
+	text-align:center;
+}
+#hide1,#hide2,#hide3{
+	
+	opacity:0;
+}
+
+/*----------------------------------------------------------------------------------
+--------------------------------About Us CSS FINISHED-------------------------------
+------------------------------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------------------------
+--------------------------------JAVA SCRIPT GAME------------------------------------
+------------------------------------------------------------------------------------*/
+
+*{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+	outline:none;
+	align-items:justify-content;
+	
+}
+.gamebody									/* Whole page */
+{
+	display:flex;
+	justify-content:center;
+	height:100%;
+	background: #F44336;
+	background-size: cover;
+}
+.mainbox{								  /* My wheel */
+	position:relative;
+	width:500px;
+	height:500px;
+	
+}
+.mainbox:after
+{
+	position:absolute;
+	content:'';
+	width:50px;
+	height:50px;
+	right: -30px;
+	top: 50%;
+	transform:translateY(-50%);
+}
+.box{
+	position:relative;
+	width:100%;
+	height:100%;
+	border-radius:60%;
+	border:10px solid #fff;
+	transition: all ease 5s;					/* Spinning transition when the spin button is clicked */
+	overflow:hidden;
+}
+#detect1,#detect2,#detect3,#detect4,#detect5,#detect6     /*My triangles */
+{
+	width:50%;
+	height:50%;
+	display:inline-block;
+	position:absolute;
+	
+}
+
+.firstspan												/* My Triangles */
+{
+	clip-path: polygon(0 0, 100% 50%, 0 100%);
+	background-color:orange;
+	transform:translate(0%,50%);
+}
+.span2
+{
+
+	clip-path: polygon(0% 50%, 100% 0, 100% 125%);
+	background-color: yellow;
+	transform:translate(0%,100%);
+	
+}
+.span3
+{
+	clip-path: polygon(100% 62%, 0 0, 0 125%);
+	background-color: black;
+	right:2px;
+	bottom:0px;
+	
+}
+.span4
+{
+	clip-path: polygon(0 48%, 100% 0, 115% 120%);
+	background-color: blue;
+	right:0px;
+	bottom:114.3px;
+}
+.span5
+{
+	clip-path: polygon(0 50%, 100% -25%, 100% 100%);
+	top:0px;
+	left:0px;
+	background-color:grey;
+}
+.span6
+{
+	clip-path: polygon(-2% -50%, 0% 100%, 100% 53%);
+	background-color: pink;
+	right:0px;
+}
+
+span b														/* My Circles inside the triangle */
+{
+	width:65px;
+	height:65px;
+	line-height:65px;
+	border-radius:50%;
+	font-size:18px;
+	text-align:center;
+	background-color:#fff;
+	position:absolute;
+	transform:translate(110%,100%);
+	
+
+}
+
+.spin6														/* Spin button */
+{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:75px;
+	height:75px;
+	border-radius:66%;
+	border: 4px solid #fff;
+	background-color: #ff5722;
+	color:#fff;
+	box-shadow: 0 5px 20px #000;
+	font-weight:bold;
+	cursor:pointer;
+	font-size:22px;
+	text-align:center;
+}
+.text12													/* My text inside the circles */
+{
+	transform:translate(80%,120%);
+	transition: all ease 5s;
+}
+.text2
+{
+	transform:translate(185%,120%);
+	transition: all ease 5s;
+}
+.text3
+{
+	transform:translate(70%,120%);
+	transition: all ease 5s;
+}
+.text4
+{
+	transform:translate(185%,120%);
+	transition: all ease 5s;
+}
+.text5
+{
+	transform:translate(185%,120%);
+	transition: all ease 5s;
+}
+.text6
+{
+	transform:translate(70%,120%);
+	transition: all ease 5s;
+}
+
+.spin:active							/* Change the design when it's pressed */
+{
+	width:70px;
+	height:70px;
+	font-size:20px;
+}
+
+#arrow{											/* arrow to decide which number to select */
+	position:absolute;
+	content:'';
+	width:50px;
+	height:50px;
+	right: -30px;
+	top: 50%;
+	transform:translateY(-50%);
+}
+#dot											/* Checks when it overlaps with one of the triangles */
+{
+	top:50%;
+	left:98%;
+	border-radius:50%;
+	width:3px;
+	height:3px;
+	font-size:1px;
+	content:'';
+	background-color:cyan;
+	position:absolute;
+	opacity:1;
+}
+#that{
+	padding-right:80px;
+	text-align:center;
+}
+
+/*----------------------------------------------------------------------------------
+--------------------------------JAVA SCRIPT GAME FINISHED---------------------------
+------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------------*/
+/*--------------------------------Christian Turcu------------------------------------
+--------------------------------Payment Method Page---------------------------------
+------------------------------------------------------------------------------------*/
+
+/* Text of the fonts is changed */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+/* This is the border of the box in payment method */
+#payMethod{
+  width: 750px;
+  height: 500px;
+  border: 3px solid;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  justify-content:space-around;
+}
+/* resisized the Select box */
+#method{
+  width: 185px;
+  padding-bottom: -200px;
+}
+/* titles have been align to centre */
+.titleC1{
+  text-align: center;
+}
+/*displays the text and titles in felx position */
+.first-row{
+   display: flex;
+}
+/*card name and cv name splited */
+.owner{
+  width: 100%;
+  margin-right: 40px;
+}
+/*puts border for the  text pages and select boxes*/
+.input-field{
+  border: 1px solid #999;
+}
+/* change the border size*/
+.input-field input{
+  width: 100%;
+  border:none;
+  outline: none;
+  padding: 10px;
+}
+/*Positones the date expired and payment method */
+.selection{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* pushing it together */
+.selection select{
+  padding: 10px 20px;
+}
+/* cofirmation button styling */
+.confirmation{
+  background-color: blueviolet;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 18px;
+  transition: 0.5s;
+}
+/* color of the backgroung button when hover*/
+.confirmation:hover{
+  background-color: rgb(5, 41, 78);
+}
+/* cahnge the width of image*/
+.cards img{
+  width: 100px;
+}
+/*---------------------------------------------------------------------------------*/
+/*----------------------------------Christian Turcu---------------------------------
+--------------------------------Payment Method CSS End------------------------------
+------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------Christian Turcu------------------------------------
+--------------------------------Donation Page CSS-----------------------------------
+------------------------------------------------------------------------------------*/
+/* Adding the theme background images with no repeat */
+.dbody{
+	background-image: url(./Pictures/theme2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+/*nav bar font changed  */
+.navbar-brand{
+	background-color: inherit;
+	padding-right: 225px;
+	font-family: 'Roboto', sans-serif;
+}
+/* positioning */
+*{
+  margin: 0;
+  padding: 0;
+}
+/* make changes with the positoning of image*/
+.image{
+  position: relative;
+  width: 60%;
+  float: right;
+  float: left;
+}
+/* make changes with the positioning*/
+.image img{
+  position: absolute;
+  width: 130%;
+  height: 375px;
+}
+
+/* Main logo change the size*/
+.logo{
+  width: 10%;
+  height: 10%;
+  margin-right: 150px;
+}
+
+/* adding the size and fonts on the text */
+input, textarea {
+    font: 20px sans-serif;
+    width: 150px;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+}
+/* Donate button changing the size and style + color */
+.buttond{
+  float: right;
+  width: 180px;
+  border-radius: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  margin-top: 25px;
+  font-weight: 550;
+  color: black;
+  border: 2px solid black;
+  background-image: linear-gradient(30deg, #FA8072 50%, transparent);
+  background-size: 425px;
+  cursor: pointer;
+}
+/*changing the color and background */
+.dback{
+	background-color: #FA8072;
+	color: black;
+}
+
+
+/* re-positioning */
+.title,.para1
+{
+text-align:center;
+}
+/*----------------------------------------------------------------------------------
+--------------------------------Donation Page CSS END-------------------------------
+------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+

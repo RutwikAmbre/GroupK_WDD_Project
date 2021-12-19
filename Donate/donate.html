@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang = "eng" dir = "ltr">
+	<head>
+		<link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<title>Charity Website</title>
+		<link rel = "stylesheet" href = "../style.css">
+		<meta charset = "utf-8"></meta>
+		<link rel="preconnect" href="https://fonts.googleapis.com/%22%3E
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+		<!--- Linking the fonts for it to function went entered in CSS + Bootstap to make website responsive --->
+		
+		<script>
+		function photobig()
+			{												// Enlarges the logo
+				var big1 = document.getElementById("zoom").src;
+				popup = window.open(big1);
+				popup.focus();
+				popup.print();
+			}
+			function photobig2()
+			{												// Enlarges the hand photos
+				var big2 = document.getElementById("zoom2").src;
+				popup = window.open(big2);
+				popup.focus();
+				popup.print();
+			}
+	
+		</script>
+	</head>
+	<body class = "dbody"> 
+		<div class = "container-fluid" id = "fonts"> <!--- width of the container with id "#"  --->
+				<!--- --->
+				<nav class = "navbar navbar-expand-lg navbar-dark bg-dark"> <!--- making the navigation bar dark gray color, adding a tittle + image + span to mark it. Putting the Home about us and donate pages as link to link the pages--->
+				  <img id="zoom" class = "logo" src = "../Pictures/op2.png" alt = "head";">
+				  <title class = "navbar-brand">Mental health Foundation</title>
+				  <div class = "menu" id = "navbarNavDropdown">
+					<ul class = "navbar-nav">
+					  <li class = "nav-item">
+						<a class = "nav-link" href = "../index.html">Home</a>
+					  </li>
+					  <li class = "nav-item">
+						<a class = "nav-link" href = "../About/index1.html">About us</a>
+					  </li>
+					  <li class = "nav-item">
+						<a class = "nav-link active" href = "Donate.html">Donate</a>
+					  </li>
+				</nav>
+				</div>
+			<div class = "row"> <!---Adding a class row for my vedio and desrcripton of donate page. --->
+				<div class = "col-sm-4">
+					
+				</div>
+				<div class = "col-sm-4">
+					<h1 class = "navbar-brand"> Why should you Donate us?</h1>
+					<p class = "para1">	So many of us lived a nightmare as frontline workers. So many of us are grieving. For many of us living with mental health problems already, our conditions spiralled. This is a crisis and it's not going away. But with your help, we can be there for all local communities.</p>
+					<hr>
+					<iframe  class = "MHF1" width = "500" height = "315" src = "https://www.youtube.com/embed/49mfPFTZsHs?controls=0" title = "Mental illness Foundation" frameborder = "1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<hr>
+				</div>
+				<div class = "col-sm-4">
+				
+				
+				</div>
+			</div>
+					<div class = "row"> <!--- Adding rows to put images and p together so that p is in the middle and images on the sides when merged --->
+						<div id = "poora" class = "col-sm-4">
+							<img id = "zoom2" onclick = "photobig2();" class = "hand1" src = "../Pictures/hands.png" alt = "hands" width="400" height="200">
+						</div>
+						
+						<div id = "info1" class = "col-sm-4">
+							<p> €10 →→→  with €10, We can providing someone with vital support and information about help available for them. </p>
+							<p> €20 →→→ with €20, We can provide Mental Health Resources for people in need. </p>
+							<hr>
+						</div>
+						
+						<div class = "col-sm-4">
+							<img id = "zoom2" onclick = "photobig2();" class = "hand2" src = "../Pictures/hands.png" alt = "hands" width="400" height="200">
+						</div>
+					</div>
+					
+					<div class = "row">
+						<div class = "col-sm-4">
+							<img id = "zoom2" onclick = "photobig2();" class = "hand3" src = "../Pictures/hands.png" alt = "hands" width="400" height="200">
+						</div>
+						
+						<div class = "col-sm-4">
+							<hr>
+							<p> €30 →→→ with €30, </p>
+							<p> €50 →→→ with €50, We can provide Mental illness supplies and workshop recovery. </p>
+							<hr>
+						</div>
+						
+						<div class = "col-sm-4">
+							
+							<img id = "zoom2" onclick = "photobig2();" class = "hand3" src = "../Pictures/hands.png" alt = "hands" width="400" height="200">
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class = "col-sm-4">
+							<img id = "zoom2" onclick = "photobig2();" class = "hand4" src = "../Pictures/hands.png" alt = "hands" width="400" height="200">
+						</div>
+						
+						<div class = "col-sm-4">
+							<hr>
+							<p> €70 →→→ with €70, We can provide </p>
+							<p> €130 →→→ with €130, We can provide national network for the students/Families. </p>
+							<hr>
+						</div>
+						
+						<div class = "col-sm-4">
+							<img id = "zoom2" onclick = "photobig2();" class = "hand4" src = "../Pictures/hands.png" alt = "hands" width="400" height="200">
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class = "col-sm-4">
+							<img id = "zoom2" onclick = "photobig2();" class = "hand4" src = "../Pictures/hands.png" alt = "hands" width="400" height="200">
+						</div>
+						
+						<div class = "col-sm-4">
+							<hr>
+							<p> €150 →→→ with €150, We can provide </p>
+							<p> €200 →→→ with €200, We can provide national network for the students/Families. </p>
+							<hr>
+						</div>
+						
+						<div class = "col-sm-4">
+							<img id = "zoom2" onclick = "photobig2();" class = "hand4" src = "../Pictures/hands.png" alt = "hands" width="400" height="200">
+						</div>
+					</div>
+					
+					<br>
+							
+					<div class = "row">
+						<div class = "col-sm-4">
+							
+							<img id = "zoom2" onclick = "photobig2();" class = "hand4" src = "../Pictures/hands.png" alt = "hands" width="400" height="200">
+						
+						</div>
+						
+						<div class = "col-sm-4"> <!--- Adding a donation button  so that you can proceed with your payment. placeholder which is a ghost in text to see what to enter. + immage--->
+							<button class = "buttond" type = "submit" value = "text">
+								<a class = "dback" href = "../Payment_Method/paymethod.html"> DONATE </a> <!--- Donation button that will bring you to a payment method --->
+							</button>
+							<input type = "text" placeholder = "||€10 --- €200||" ></input>
+							<div class = "image">
+								<img src = "../Pictures/op.png">
+							</div>
+						</div>
+						
+						<div class = "col-sm-4">
+							<img class = "hand4" src = "../Pictures/hands.png" alt = "hands" width = "400" height ="200">
+						</div>
+					</div>								
+		</div>
+			<div class="endblock">																<!--Bottom NavBar -->
+									<nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-transparent ml-auto">
+							  
+
+										  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+											<ul class="navbar-nav mr-auto">
+											  <li class="nav-item navbar-dark bg-dark">
+												<a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+											  </li>
+											  <li class="nav-item navbar-dark bg-dark">
+												<a class="nav-link" href="../About/index1.html">About Us</a>
+											  </li>
+											  <li class="nav-item navbar-dark bg-dark">
+												<a class="nav-link active" href="../Donate/Donate.html">Donation</a>
+											  </li>
+												<li class="nav-item" id="trademark">
+													<a class="nav-link disabled"> Mental Health Foundation &#169; </a>
+												</li>
+											 
+											  </ul>
+											</div>
+									</nav>
+				
+			</div>
+	</body>
+</html>

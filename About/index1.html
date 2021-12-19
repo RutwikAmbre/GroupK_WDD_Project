@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> About </title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">   <!-- Bootstrap -->
+		<meta charset = "utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../style.css">															<!-- My Stylesheet -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">											<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+	
+		<script>
+			var textOnImage;
+			var x1;
+			var x2;
+			var x3;
+			var button;
+			function Rut()													// Showing details after clicking on photo - Rutwik Ambre
+			{ 
+				textOnImage = document.getElementById("demo");
+				x1 = document.getElementById("content1a");
+				x2 = document.getElementById("content1b");
+				x3 = document.getElementById("content1c");
+				button = document.getElementById("hide1");
+				textOnImage.style.opacity = "1";
+				x1.style.opacity = "1";
+				x2.style.opacity = "1";
+				x3.style.opacity = "1";
+				button.style.opacity = "1";
+				
+			
+			}
+			function RutL(){												//Hides all the details from the button press - Rutwik Ambre
+				textOnImage = document.getElementById("demo");
+				x1 = document.getElementById("content1a");
+				x2 = document.getElementById("content1b");
+				x3 = document.getElementById("content1c");
+				button = document.getElementById("hide1");
+				textOnImage.style.opacity = "0";
+				x1.style.opacity = "0";
+				x2.style.opacity = "0";
+				x3.style.opacity = "0";
+				button.style.opacity = "0";
+			
+			}
+			function Chris()												// Showing details after clicking on photo - Christian Turcu
+			{											
+				textOnImage = document.getElementById("demo1");
+				x1 = document.getElementById("content2a");
+				x2 = document.getElementById("content2b");
+				x3 = document.getElementById("content2c");
+				button = document.getElementById("hide2");
+				textOnImage.style.opacity = "1";
+				x1.style.opacity = "1";
+				x2.style.opacity = "1";
+				x3.style.opacity = "1";
+				button.style.opacity = "1";
+			
+			}
+			function ChrisL()													//Hides all the details from the button press - Christian Turcu
+			{											
+				textOnImage = document.getElementById("demo1");
+				x1 = document.getElementById("content2a");
+				x2 = document.getElementById("content2b");
+				x3 = document.getElementById("content2c");
+				button = document.getElementById("hide2");
+				textOnImage.style.opacity = "0";
+				x1.style.opacity = "0";
+				x2.style.opacity = "0";
+				x3.style.opacity = "0";
+				button.style.opacity = "0";
+			}
+			function Alex()														// Showing details after clicking on photo - Alexandru Rusu
+			{				
+				textOnImage = document.getElementById("demo2");
+				x1 = document.getElementById("content3a");
+				x2 = document.getElementById("content3b");
+				x3 = document.getElementById("content3c");
+				button = document.getElementById("hide3");
+				textOnImage.style.opacity = "1";
+				x1.style.opacity = "1";
+				x2.style.opacity = "1";
+				x3.style.opacity = "1";
+				button.style.opacity = "1";													
+			}
+			function AlexL()													//Hides all the details from the button press - Alexandru Rusu
+			{											
+				textOnImage = document.getElementById("demo2");
+				x1 = document.getElementById("content3a");
+				x2 = document.getElementById("content3b");
+				x3 = document.getElementById("content3c");
+				button = document.getElementById("hide3");
+				textOnImage.style.opacity = "0";
+				x1.style.opacity = "0";
+				x2.style.opacity = "0";
+				x3.style.opacity = "0";
+				button.style.opacity = "0";											
+			}
+			function photo1()
+			{												// Opens the full size image on a new tab when clicked
+				var big1 = document.getElementById("photo_1").src;
+				popup = window.open(big1);
+				popup.focus();
+				popup.print();
+			}
+			function photo2()
+			{												// Opens the full size image on a new tab when clicked
+				var big2 = document.getElementById("photo_2").src;
+				popup = window.open(big2);
+				popup.focus();
+				popup.print();
+			}
+			function photo3()
+			{												// Opens the full size image on a new tab when clicked
+				var big3 = document.getElementById("photo_3").src;
+				popup = window.open(big3);
+				popup.focus();
+				popup.print();
+			}
+		
+		
+		
+		
+		</script>
+	</head>
+	
+	<body id="about">
+		<div class="container-fluid">
+		
+				<div class="row">  <!--Row 1 Includes navigation bar and logo-->
+						
+					
+						<nav class = "navbar navbar-expand-lg navbar-dark bg-dark"> <!--- making the navigation bar dark gray color, adding a tittle + image + span to mark it. Putting the Home about us and donate pages as link to link the pages--->
+							  <img class="logoo" src="../Pictures/op2.png" alt = "logo" width="200" height="150">
+							  <title class = "navbar-brand">Mental health Foundation</title>
+							  <div class = "menu" id = "navbarNavDropdown">
+								<ul class = "navbar-nav">
+								  <li class = "nav-item">
+									<a class = "nav-link" href = "../index.html">Home</a>
+								  </li>
+								  <li class = "nav-item">
+									<a class = "nav-link active" href = "../About/index1.html">About us</a>
+								  </li>
+								  <li class = "nav-item">
+									<a class = "nav-link" href = "../Donate/Donate.html">Donate</a>
+								  </li>
+							</nav>
+					
+						</div>
+						
+				</div>
+				
+				<div class="row">					<!-- Row 2 Includes 2 columns with images and information -->
+					<div class="col-sm-6">
+						<img id="photo_1" alt="mapping of head" class="hand" src="../Pictures/charity.png"  width="500" height="250" onclick="photo1();">
+						<div class="block2">
+							<h2 class="aboutinfo1"> What is our mission? </h2>
+							<p class="aboutinfo"> Helping Hand's aim is to promote positive mental health and wellness in all individuals and communities, and we assist those who are experiencing mental health challenges on their road to recovery.</p>
+							<p class="aboutinfo">
+							We work to increase community awareness of mental health and the mind-body connection between mental and physical health.
+							We also provide knowledge and chances for people to recognize early warning signs of mental illness.</p>
+						</div>
+						<img id="photo_3" alt="candid woman photo" src="../Pictures/about_3.jpg" class="happy" width="250" height="200" onclick="photo3();">
+					
+					
+					
+					</div>
+					
+					<div class="col-sm-6">     
+						<br>
+							<div class="block1">
+								<h2 class="aboutinfo1"> What is mental health? </h2>
+								<p class="aboutinfo">
+								Being mentally healthy implies being able to deal with life's daily problems and understanding your own overall well-being.
+								Being mentally well entails far more than simply being free of mental health issues.
+								</p>
+								<p class="aboutinfo"> Our emotional, psychological, and social well-being all contribute to our mental health.
+								Mental health is essential at all stages of life, from childhood through adolescent to adulthood.</p>
+							</div>
+						<img id="photo_2" alt="mental health matters" class="lago" src="../Pictures/about_2.jpg" width="500" height="325" onclick="photo2();">
+						
+						<div class="block3">
+							<h2 class="aboutinfo1">THIS IS PERFECTLY NORMAL.</h2>
+							<p class="aboutinfo">Mental health difficulties can affect our thoughts, feelings and behaviour. They can range from the worries we all experience as part of everyday life to serious long-term conditions.</p> 
+							<p class="aboutinfo">Each person’s experience of mental health difficulties is unique, even among people with the same diagnosis.</p>
+						</div>
+						
+					</div>
+				</div>
+					
+					<div class="row">									<!-- Row 3 heading -->
+						<div class="col-sm-12">
+							<br>
+							<br>
+							<h3 id="owner"> MENTAL HEALTH FOUNDATION CREATORS </h3> 
+						</div>
+					</div>
+						<table id="bio"> 	<!--Table about the group members with the information and pictures-->
+								<tr id="row1">
+									<th> 
+										<p> CLICK ON IMAGE</p>
+										<p> TO DISPLAY </p>
+									</th>
+									<td>  
+									<div id="member1" class="container" >
+													  <img id="test" class ="corner" alt="Rutwik" src="../Pictures/Rutwik_a.jpg"  width="175" height="200" onclick="Rut();">    
+													  <div class="bottom-right" id="demo">Rutwik Ambre</div>
+									</div>
+									<div class="row justify-content-center">
+										<button id="hide1" type = "button" class="btn btn-primary" onclick="RutL();"> Hide </button>
+									</div>
+									</td>
+									
+									<td> 
+									<div id="member2" class="container">
+													  <img class ="corner" alt="Christian" src="../Pictures/christian.png"  width="175" height="200" onclick="Chris();"/>
+													  <div class="bottom-right" id="demo1">Christian Turcu</div>
+									</div>
+									<div class="row justify-content-center">
+										<button id="hide2" type = "button" class="btn btn-primary" onclick="ChrisL();"> Hide </button>
+									</div>
+									</td>
+									<td>
+									<div id="member3" class="container">
+													  <img class ="corner" alt="Alex" src="../Pictures/alex_god2.png"  width="175" height="200" onclick="Alex();">
+													  <div class="bottom-right" id="demo2">Alexandru Rusu</div>
+									</div>
+									<div class="row justify-content-center">
+										<button id="hide3" type = "button" class="btn btn-primary" onclick="AlexL();"> Hide </button>
+									</div>
+									</td>
+								</tr>
+								<tr id="row2">															<!--Mental Health Foundation creators -->
+									<th> Name </th>
+										<td id="content1a"> Rutwik Ambre </td>							<!-- content1a, content1b, content1c - Rutwik Ambre -->
+										<td id="content2a"> Christian Turcu </td>					<!-- content2a, content2b, content2c - Christian Turcu -->
+										<td id="content3a"> Alexandru Rusu </td>					<!-- content3a, content3b, content3c - Alexandru Rusu -->
+								</tr>
+								
+								<tr id="row3">
+									<th> Phone Number </th>
+									<td id ="content1b"> +353 894213990 </td>
+									<td id="content2b"> +353 934555621 </td>
+									<td id="content3b"> +353 988832321 </td>
+							        
+								</tr>
+								
+								<tr id="row4">
+									<th> Email </th>
+									<td id="content1c"> rutwik.ambre@gmail.com </td>
+									<td id="content2c"> turcuchristian@gmail.com </td>
+									<td id="content3c"> alex10alexandru@gmail.com </td>
+								</tr>
+								
+								
+						</table>
+							
+						
+								<div class="endblock">																<!--Bottom NavBar -->
+									<nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-transparent ml-auto">
+							  
+
+										  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+											<ul class="navbar-nav mr-auto">
+											  <li class="nav-item navbar-dark bg-dark">
+												<a class="nav-link" href="../index.html">Home </a>
+											  </li>
+											  <li class="nav-item navbar-dark bg-dark">
+												<a class="nav-link active" href="../About/index1.html">About Us</a>
+											  </li>
+											  <li class="nav-item navbar-dark bg-dark">
+												<a class="nav-link" href="../Donate/Donate.html">Donation</a>
+											  </li>
+											  <li class="nav-item" id="trademark">
+													<a class="nav-link disabled"> Mental Health Foundation &#169; </a>
+												</li>
+											 
+											 
+											  </ul>
+											</div>
+									</nav>
+								
+								</div>
+								
+					</div>
+				
+	
+	
+	
+	</body>
+	
+</html>
